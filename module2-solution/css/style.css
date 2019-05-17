@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 @media (min-width: 992px) {
-    /* Desktop */
+  /* Desktop */
+  h2 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* Tablet view  */
+  /* Tablet view  */
 }
 
 @media (max-width: 767px) {
-    /* Mobile view */
+  /* Mobile view */
 }
