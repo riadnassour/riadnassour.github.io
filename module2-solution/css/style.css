@@ -1,5 +1,40 @@
 * {
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.row {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+.col-lg-4 {
+  display: inline-block;
+  width: 32%;
+  border: 1px black solid;
+  padding: 20px;
+  margin: 5px;
+  position: relative;
+  background-color: gainsboro;
+}
+
+.sec-title {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  text-align: center;
+  border: 1px black solid;
+  padding: 2px;
+  width: 24%;
+  background-color: #f1be04;
+}
+.sec-title.beef {
+  background-color: #ff8a8a;
+}
+.sec-title.sushi {
+  background-color: #afaff3;
 }
 
 @media (min-width: 992px) {
@@ -7,14 +42,68 @@
   h2 {
     text-align: center;
   }
-  .chicken_div {
-    width: 30%;
+  .col-lg-4 {
+    display: inline-block;
+    width: 32%;
     border: 1px black solid;
+    padding: 20px;
+    margin: 5px;
+    position: relative;
+    background-color: gainsboro;
+  }
+
+  .sec-title {
+    position: absolute;
+    top: -17px;
+    right: 0;
+    text-align: center;
+    border: 1px black solid;
+    padding: 2px;
+    width: 24%;
+    background-color: #f1be04;
+  }
+  .sec-title.beef {
+    background-color: #ff8a8a;
+  }
+  .sec-title.sushi {
+    background-color: #afaff3;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Tablet view  */
+  h2 {
+    text-align: center;
+  }
+  .col-lg-4 {
+    display: inline-block;
+    width: 47%;
+    border: 1px black solid;
+    padding: 15px;
+    margin: 8px;
+    position: relative;
+    background-color: gainsboro;
+  }
+  .col-md-12 {
+    width: 97.5%;
+  }
+
+  .sec-title {
+    position: absolute;
+    top: -17px;
+    right: 0;
+    text-align: center;
+    border: 1px black solid;
+    padding: 2px;
+    width: 44%;
+    background-color: #f1be04;
+  }
+  .sec-title.beef {
+    background-color: #ff8a8a;
+  }
+  .sec-title.sushi {
+    background-color: #afaff3;
+  }
 }
 
 @media (max-width: 767px) {
