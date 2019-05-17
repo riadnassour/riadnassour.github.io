@@ -7,6 +7,10 @@
   h2 {
     text-align: center;
   }
+  .chicken_div {
+    width: 30%;
+    border: 1px black solid;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
