@@ -151,7 +151,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: center;
 }
 h1.sm-heading,
@@ -353,6 +353,9 @@ main#home h1 {
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .item {
+    margin-bottom: 2rem;
   }
 }
 
