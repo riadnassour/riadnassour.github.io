@@ -179,7 +179,8 @@ header {
 }
 
 main {
-  padding: 4rem;
+  padding: 2rem;
+  padding-top: 5rem;
   min-height: calc(100vh - 60px);
 }
 main .icons {
